@@ -7,7 +7,7 @@ st.set_page_config(page_title="SANDIZ AI v11", layout="wide")
 
 # --- 2. إعداد Gemini API ---
 # يفضل وضع المفتاح في Streamlit Secrets، أو استخدامه مباشرة هنا
-API_KEY = "AIzaSyAgcdrBQyRkw7LGjvM2ZbVjH2sNvPtvCNc" 
+API_KEY = "AIzaSyDcRWQgKnLLvchiOZWpGS24pegXYPnVNZQ" 
 genai.configure(api_key=API_KEY)
 model = genai.GenerativeModel('gemini-2.5-flash')
 
