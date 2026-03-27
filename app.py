@@ -9,7 +9,7 @@ st.set_page_config(page_title="SANDIZ AI v11", layout="wide")
 # يفضل وضع المفتاح في Streamlit Secrets، أو استخدامه مباشرة هنا
 API_KEY = "AIzaSyCUYmoQKNlvCGytfv2qHO2llCAv_QloEWc" 
 genai.configure(api_key=API_KEY)
-model = genai.GenerativeModel('gemini-1.5-flash')
+model = genai.GenerativeModel('gemini-2.5-flash')
 
 # --- 3. وظيفة جلب المدن ---
 def load_cities_from_file():
