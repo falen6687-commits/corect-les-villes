@@ -10,7 +10,7 @@ st.set_page_config(page_title="SANDIZ AI v11", layout="wide")
 # هذا السطر يقرأ المفتاح من صفحة Secrets التي فتحتها الآن
 API_KEY = st.secrets["GEMINI_API_KEY"]
 genai.configure(api_key=API_KEY)
-model = genai.GenerativeModel('gemini-2.5-flash')
+model = genai.GenerativeModel('gemini-1.5-flash')
 
 # --- 3. وظيفة جلب المدن ---
 def load_cities_from_file():
